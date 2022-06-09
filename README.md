@@ -38,3 +38,23 @@
 |  handleNumChange | 数字框内容改变回调 | Function | -- |
 |  clearCallback | 清空回调 | Function | -- |
 |  defaultValue | 默认内容 | string & (string \| number \| readonly string[]) | -- |
+
+## Select下拉菜单
+封装了五种类型的下拉菜单，分别是：
+- 基本下拉菜单
+- 被禁用的下拉菜单
+- 处于加载状态的下拉菜单
+- 单独选项禁用的下拉菜单
+- 可输入的下拉菜单
+
+|  Name   | Description  | Type |  Default | 
+|  ----  | ----  | ----  | ----  |
+|  width | 自定义宽度 | Number | 80px |
+|  option | 选择器数据 | Options[] | [] |
+|  disabled | 禁用状态  | Boolean | false |
+|  placeholder | 提示 | string | false |
+|  loading | 加载状态 | boolean | false |
+|  showSearch | 可输入状态 | boolean  | false |
+|  clearable | 可输入状态下清除 | Boolean | false |
+|  handleSelectCallback | 选择后的回调 | Function | {} |
+|  handleTextChange | 输入后的回调 | Function | {} |

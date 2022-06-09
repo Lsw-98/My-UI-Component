@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Pwd from './Input/demos/pwd';
+import Clear from './Select/demos/clear';
 
 
 const root = ReactDOM.createRoot(
@@ -8,6 +8,6 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <Pwd></Pwd>
+    <Clear></Clear>
   </React.StrictMode>
 );
