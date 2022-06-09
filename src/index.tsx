@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Clear from './Select/demos/clear';
+import SelectIpt from './Input/demos/selectIpt';
 
 
 const root = ReactDOM.createRoot(
@@ -8,6 +8,6 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <Clear></Clear>
+    <SelectIpt></SelectIpt>
   </React.StrictMode>
 );

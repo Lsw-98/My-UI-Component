@@ -104,7 +104,6 @@ const Select: FC<SelectProps> = (props) => {
     e.stopPropagation()
     // 如果是禁用状态，直接返回
     if (disabled) return
-    console.log(optionRef.current)
     if (optionRef.current.style.height === '0px' || optionRef.current.style.height === '') {
       if (showSearch) {
         optionRef.current.style.height = `${inputFilterOtpions.length * 100}%`
