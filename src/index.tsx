@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import SelectIpt from './Input/demos/selectIpt';
+import Button from './Button/demos/basic';
 
 
 const root = ReactDOM.createRoot(
@@ -8,6 +8,6 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <SelectIpt></SelectIpt>
+    <Button></Button>
   </React.StrictMode>
 );
